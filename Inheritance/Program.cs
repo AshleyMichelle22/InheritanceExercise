@@ -8,8 +8,8 @@ namespace Inheritance
         {
             // TODO Be sure to follow best practice when creating your classes
 
-            // Create a class Animal
-            // give this class 4 members that all Animals have in common
+            // Create a class Animal *
+            // give this class 4 members that all Animals have in common*
 
 
             // Create a class Bird
@@ -28,12 +28,35 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            //object initalizer syntax
 
+            var bird1 = new Bird();
+            bird1.CanTalk = true;
+            bird1.CanFly = true;
+            bird1.featherColor = "Red";
+            bird1.Domestic = false;
+
+           
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+
+            var reptile1 = new Reptile();
+            reptile1.LayEggs = true;
+            reptile1.CarnivoreOmnivore = "Carnivore";
+            reptile1.TreeRockGround = "Tree";
+            reptile1.Age = 4;
+
+            
+
+          
+
+
+
+
+            
         }
     }
 }
